@@ -1,0 +1,3 @@
+[submodule "product-catalog"]
+	path = product-catalog
+	url = https://github.com/pedrovazs/product-catalog-dio

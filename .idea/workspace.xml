@@ -1,7 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a205a91-f539-4b94-8e68-f74c599faf25" name="Changes" comment="" />
+    <list default="true" id="9a205a91-f539-4b94-8e68-f74c599faf25" name="Changes" comment="finish">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/microservices-dio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/one/digitalinnovation/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/one/digitalinnovation/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/one/digitalinnovation/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/one/digitalinnovation/gateway/GatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/src/main/java/one/digitalinnovation/servicediscovery/ServiceDiscoveryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/src/test/java/one/digitalinnovation/servicediscovery/ServiceDiscoveryApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/src/main/java/one/digitalinnovation/shoppingcart/ShoppingCartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/src/main/java/one/digitalinnovation/shoppingcart/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/src/main/java/one/digitalinnovation/shoppingcart/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/src/main/java/one/digitalinnovation/shoppingcart/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/src/main/java/one/digitalinnovation/shoppingcart/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/src/main/java/one/digitalinnovation/shoppingcart/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-cart/src/test/java/one/digitalinnovation/shoppingcart/ShoppingCartApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +72,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/product-catalog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -30,6 +83,29 @@
       <option name="presentableId" value="Default" />
       <updated>1630503334545</updated>
     </task>
+    <task id="LOCAL-00001" summary="finish">
+      <created>1630522169868</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630522169868</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish" />
   </component>
 </project>
